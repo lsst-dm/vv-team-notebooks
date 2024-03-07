@@ -5,3 +5,7 @@ parameters:
     type: string
     description: Observation Night (YYYY-MM-DD)
     default: "2024-02-29"
+  instrument:
+    type: string
+    description: Instrument
+    default: "LATISS"
