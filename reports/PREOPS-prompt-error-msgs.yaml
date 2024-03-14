@@ -4,7 +4,7 @@ parameters:
   day_obs:
     type: string
     description: Observation Night (YYYY-MM-DD)
-    default: "2024-02-29"
+    default: "2024-03-19"
   instrument:
     type: string
     description: Instrument
