@@ -2,6 +2,6 @@ title: Coadd Check
 description: Check plots associated with coadd production
 parameters:
   tract:
-    type: int
+    type: integer
     description: Tract
     default: 9813
