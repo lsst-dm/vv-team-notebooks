@@ -1,0 +1,7 @@
+title: Coadd Metrics Viewer
+description: View metric tables for coadds on a per-tract basis.
+parameters:
+  day_obs:
+    type: string
+    description: Day Obs
+    default: 20240401
