@@ -1,0 +1,15 @@
+title: Coadd Metrics Viewer
+description: View metric tables for coadds on a per-tract basis.
+parameters:
+  day_obs:
+    type: string
+    description: Date(s) to include (YYYYMMDD)
+    default: "20240402"
+  repo:
+    type: string
+    description: Repository
+    default: "/repo/ops-rehearsal-3-prep"
+  collection:
+    type: string
+    description: Collection
+    default: "u/homer/w_2024_12/DM-43439"
