@@ -1,0 +1,11 @@
+title: Nightly Validation Pipeline Error Report
+description: List of pipelines errors from the NV processing.
+parameters:
+  day_obs:
+    type: string
+    description: Observation Night (YYYY-MM-DD)
+    default: "2024-05-18"
+  instrument:
+    type: string
+    description: Instrument
+    default: "LSSTComCamSim"
