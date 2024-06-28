@@ -4,12 +4,12 @@ parameters:
   day_obs:
     type: string
     description: Date(s) to include (YYYYMMDD)
-    default: "20240402"
+    default: "20240625"
   repo:
     type: string
     description: Repository
-    default: "/repo/ops-rehearsal-3-prep"
+    default: "embargo_or4"
   collection:
     type: string
     description: Collection
-    default: "u/homer/w_2024_12/DM-43439"
+    default: "LSSTComCamSim/runs/nightlyValidation/20240625/w_2024_25/DM-44966"
