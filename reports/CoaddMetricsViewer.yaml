@@ -12,4 +12,4 @@ parameters:
   collection:
     type: string
     description: Collection
-    default: "LSSTComCamSim/runs/nightlyValidation/20240625/w_2024_25/DM-44966"
+    default: "LSSTComCamSim/runs/nightlyValidation/20240625/w_2024_25/DM-44966/20240626T155223Z"
