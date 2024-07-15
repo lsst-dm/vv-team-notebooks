@@ -4,12 +4,12 @@ parameters:
   day_obs:
     type: string
     description: Date(s) to include (YYYYMMDD)
-    default: "20240625"
+    default: "20230511"
   repo:
     type: string
     description: Repository
-    default: "embargo_or4"
+    default: "embargo"
   collection:
     type: string
     description: Collection
-    default: "LSSTComCamSim/runs/nightlyValidation/20240625/w_2024_25/DM-44966/20240626T155223Z"
+    default: "LATISS/runs/AUXTEL_DRP_IMAGING_20230509_20240201/w_2024_05/PREOPS-4871"
