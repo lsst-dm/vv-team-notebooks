@@ -4,8 +4,12 @@ parameters:
   day_obs:
     type: string
     description: Observation Night (YYYY-MM-DD)
-    default: "2024-04-08"
+    default: "2024-09-16"
   instrument:
     type: string
     description: Instrument
     default: "LATISS"
+  survey:
+    type: string
+    description: Survey name
+    default: "BLOCK-306"
