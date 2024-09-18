@@ -1,5 +1,5 @@
 title: Coadd Metrics Viewer
-description: View metric tables for coadds on a per tract basis.
+description: View metric tables for coadds on a per-tract basis.
 parameters:
   day_obs:
     type: string
