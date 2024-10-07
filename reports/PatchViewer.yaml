@@ -9,6 +9,10 @@ parameters:
     type: string
     description: Collection
     default: "u/homer/w_2024_12/DM-43439"
+  skymap:
+    type: string
+    description: Skymap
+    default: "ops_rehersal_prep_2k_v1"
   tract:
     type: integer
     description: Tract
