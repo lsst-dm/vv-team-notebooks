@@ -1,0 +1,44 @@
+title: Target Report
+description: List of targets observed.
+parameters:
+  day_obs:
+    type: string
+    description: Observation Night (YYYY-MM-DD)
+    default: "2024-08-07"
+  instrument:
+    type: string
+    description: Instrument
+    default: "LATISS"
+  repo:
+    type: string
+    description: repo
+    default: "/repo/embargo"
+  collection:
+    type: string
+    description: collection
+    default: "LATISS/prompt/output-2024-08-07"
+  collection_sky:
+    type: string
+    description: collection for skymap
+    default: "LATISS/runs/AUXTEL_DRP_IMAGING_20230509_20240513/w_2024_20/PREOPS-5146"
+  skymap_name:
+    type: string
+    description: skymap name
+    default: 'latiss_v1'
+  col_sciprog:
+    type: string
+    description: column name to be used for science program name
+    default: "science_program"
+  col_target:
+    type: string
+    description: column name to be used for target name
+    default: "target"
+  col_filter:
+    type: string
+    description: column name to be used for filter name
+    default: "filter"
+  col_id:
+    type: string
+    description: column name to be used for id
+    default: "id"    
+
