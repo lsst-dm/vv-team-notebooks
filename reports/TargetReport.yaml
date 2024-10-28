@@ -1,30 +1,34 @@
 title: Target Report
 description: List of targets observed.
 parameters:
-  day_obs:
+  day_obs_start:
     type: string
-    description: Observation Night (YYYY-MM-DD)
+    description: Starting Observation Night (YYYY-MM-DD or TODAY)
     default: "2024-08-07"
+  day_obs_end:
+    type: string
+    description: Starting Observation Night (YYYY-MM-DD or TODAY)
+    default: "TODAY"
   instrument:
     type: string
     description: Instrument
-    default: "LATISS"
+    default: "LSSTComCam"
   repo:
     type: string
     description: repo
-    default: "/repo/embargo"
+    default: "embargo_new"
   collection:
     type: string
     description: collection
-    default: "LATISS/prompt/output-2024-08-07"
+    default: "LSSTComCam/nightlyValidation"
   collection_sky:
     type: string
     description: collection for skymap
-    default: "LATISS/runs/AUXTEL_DRP_IMAGING_20230509_20240513/w_2024_20/PREOPS-5146"
+    default: "LSSTComCamSim/runs/DRP/OR4/w_2024_25/DM-45066"
   skymap_name:
     type: string
     description: skymap name
-    default: 'latiss_v1'
+    default: 'ops_rehersal_prep_2k_v1'
   col_sciprog:
     type: string
     description: column name to be used for science program name
@@ -41,4 +45,3 @@ parameters:
     type: string
     description: column name to be used for id
     default: "id"    
-
