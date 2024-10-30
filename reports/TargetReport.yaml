@@ -4,7 +4,7 @@ parameters:
   day_obs_start:
     type: string
     description: Starting Observation Night (YYYY-MM-DD or TODAY)
-    default: "2024-08-07"
+    default: "2024-10-24"
   day_obs_end:
     type: string
     description: Starting Observation Night (YYYY-MM-DD or TODAY)
