@@ -24,11 +24,11 @@ parameters:
   collection_sky:
     type: string
     description: collection for skymap
-    default: "LSSTComCamSim/runs/DRP/OR4/w_2024_25/DM-45066"
+    default: "LSSTComCam/nightlyValidation"
   skymap_name:
     type: string
     description: skymap name
-    default: 'ops_rehersal_prep_2k_v1'
+    default: 'lsst_cells_v1'
   col_sciprog:
     type: string
     description: column name to be used for science program name
