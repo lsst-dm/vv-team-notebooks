@@ -4,7 +4,7 @@ parameters:
   day_obs_start:
     type: string
     description: Starting Observation Night (YYYY-MM-DD or TODAY)
-    default: "2024-10-24"
+    default: "2025-04-15"
   day_obs_end:
     type: string
     description: Starting Observation Night (YYYY-MM-DD or TODAY)
@@ -12,19 +12,19 @@ parameters:
   instrument:
     type: string
     description: Instrument
-    default: "LSSTComCam"
+    default: "LSSTCam"
   repo:
     type: string
     description: repo
-    default: "embargo_new"
+    default: "embargo"
   collection:
     type: string
     description: collection
-    default: "LSSTComCam/nightlyValidation"
+    default: "LSSTCam/defaults"
   collection_sky:
     type: string
     description: collection for skymap
-    default: "LSSTComCam/nightlyValidation"
+    default: "LSSTCam/defaults"
   skymap_name:
     type: string
     description: skymap name
