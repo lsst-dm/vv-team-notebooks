@@ -4,12 +4,16 @@ parameters:
   day_obs:
     type: string
     description: Date(s) to include (YYYYMMDD)
-    default: "20230511"
+    default: "20250604"
   repo:
     type: string
     description: Repository
-    default: "embargo"
+    default: "/repo/main"
   collection:
     type: string
     description: Collection
-    default: "LATISS/runs/AUXTEL_DRP_IMAGING_20230509_20240201/w_2024_05/PREOPS-4871"
+    default: "LSSTCam/runs/DRP/20250604_20250814/w_2025_33/DM-52202"
+  instrument:
+    type: string
+    description: Instrument
+    default: "LSSTCam"

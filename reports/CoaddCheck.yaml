@@ -4,4 +4,8 @@ parameters:
   tract:
     type: integer
     description: Tract
-    default: 9813
+    default: 2234
+  band:
+    type: string
+    description: Band
+    default: 'r'

@@ -1,30 +1,30 @@
-title: Patch Viewer
+title: Coadd Patch Viewer
 description: View deepCoadd patches, including significantly detected sources.
 parameters:
   repo:
     type: string
     description: Butler repository
-    default: "/repo/ops-rehearsal-3-prep"
+    default: "/repo/main"
   collection:
     type: string
     description: Collection
-    default: "u/homer/w_2024_12/DM-43439"
+    default: "LSSTCam/runs/DRP/20250604_20250814/w_2025_33/DM-52202"
   skymap:
     type: string
     description: Skymap
-    default: "ops_rehersal_prep_2k_v1"
+    default: "lsst_cells_v1"
   tract:
     type: integer
     description: Tract
-    default: 9638
+    default: 2234
   patch:
     type: integer
     description: Patch
-    default: 286
+    default: 50
   band:
     type: string
     description: Band
-    default: "i"
+    default: "r"
   snr:
     type: number
     description: Display sources above this SN threshold
