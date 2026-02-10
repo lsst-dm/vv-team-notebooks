@@ -1,5 +1,5 @@
 # vv-team-notebooks
 
-A place for investigation notebooks by members of the Rubin Operations Verification & Validation Team to land.
+A place for investigation notebooks by members of the Rubin Data Validation Team.
 
-Content here is not actively maintained or guaranteed to run.
+Notebooks here are not long-term maintained or guaranteed to run.
