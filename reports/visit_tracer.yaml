@@ -1,0 +1,11 @@
+title: Prompt Processing Visit Log Analyzer
+description: Quick trace of logs from prompt processing.
+parameters:
+  visit_id:
+    type: integer
+    description: visit ID
+    default: 2026030100037
+  butler_alias:
+    type: string
+    description: Butler repo URI
+    default: "embargo"
